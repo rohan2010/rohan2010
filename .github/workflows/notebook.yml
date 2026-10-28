@@ -18,7 +18,7 @@ jobs:
         with:
           feed_list: "https://rohan2010.github.io/notebook/feed.xml"
           max_post_count: 5
-          template: "- [$title]($url) <sub>$date</sub>$newline"
+          template: "$newline- [$title]($url) <sub>$date</sub>"
           date_format: "mmm d, yyyy"
           commit_message: "Notebook: update the post list"
           committer_username: "rohan2010"

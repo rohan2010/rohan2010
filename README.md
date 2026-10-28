@@ -267,7 +267,8 @@ flowchart LR
 
 Writing on building with AI. This list updates itself from the [RSS feed](https://rohan2010.github.io/notebook/feed.xml).
 
-<!-- BLOG-POST-LIST:START -->- [LLMs Learned to Talk. Jev Wants AI to Decide.](https://rohan2010.github.io/notebook/jev-wants-ai-to-decide/) <sub>Oct 27, 2026</sub>
+<!-- BLOG-POST-LIST:START -->
+- [LLMs Learned to Talk. Jev Wants AI to Decide.](https://rohan2010.github.io/notebook/jev-wants-ai-to-decide/) <sub>Oct 27, 2026</sub>
 - [The Empathy Engine: Fine-Tuning Gemma 3 270M with LoRA for Mental Health Chatbots](https://rohan2010.github.io/notebook/fine-tuning-gemma-3-empathy/) <sub>Jan 22, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
