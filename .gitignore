@@ -1,0 +1,4 @@
+.DS_Store
+build/preview/
+build/me-small.jpg
+__pycache__/

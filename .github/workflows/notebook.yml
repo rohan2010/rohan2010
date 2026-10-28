@@ -1,0 +1,25 @@
+name: Notebook posts
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  posts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://rohan2010.github.io/notebook/feed.xml"
+          max_post_count: 5
+          template: "- [$title]($url) <sub>$date</sub>$newline"
+          date_format: "mmm d, yyyy"
+          commit_message: "Notebook: update the post list"
+          committer_username: "rohan2010"
+          committer_email: "rohan2010@users.noreply.github.com"
